@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "MusicAppV2",
-    "slug": "MusicAppV2",
-    "version": "1.0.0",
+    "name": "SoundWave",
+    "slug": "SoundWave",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "musicappv2",
+    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -20,8 +20,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
     "web": {
       "bundler": "metro",
@@ -29,10 +28,34 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": true,
+          "supportsPictureInPicture": true
+        }
+      ],
+      "expo-sqlite",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow SoundWave to access your photos.",
+          "savePhotosPermission": "Allow SoundWave to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "134cb4c5-5a9e-4cce-8e6f-4ef6725888d2"
+      }
     }
   }
 }

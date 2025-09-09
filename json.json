@@ -1,0 +1,55 @@
+{
+  "assets": [
+    {
+      "albumId": "540528482",
+      "creationTime": 1634822326000,
+      "duration": 0,
+      "filename": "Nitro_Wallpaper_01_3840x2400.jpg",
+      "height": 2400,
+      "id": "41",
+      "mediaType": "photo",
+      "modificationTime": 1635366660000,
+      "uri": "file:///storage/emulated/0/Download/Nitro_Wallpaper_01_3840x2400.jpg",
+      "width": 3840
+    },
+    {
+      "albumId": "540528482",
+      "creationTime": 1634823047000,
+      "duration": 0,
+      "filename": "Nitro_Wallpaper_02_3840x2400.jpg",
+      "height": 2400,
+      "id": "42",
+      "mediaType": "photo",
+      "modificationTime": 1635366660000,
+      "uri": "file:///storage/emulated/0/Download/Nitro_Wallpaper_02_3840x2400.jpg",
+      "width": 3840
+    },
+    {
+      "albumId": "540528482",
+      "creationTime": 1634823634000,
+      "duration": 0,
+      "filename": "Nitro_Wallpaper_03_3840x2400.jpg",
+      "height": 2400,
+      "id": "43",
+      "mediaType": "photo",
+      "modificationTime": 1635366660000,
+      "uri": "file:///storage/emulated/0/Download/Nitro_Wallpaper_03_3840x2400.jpg",
+      "width": 3840
+    },
+    {
+      "albumId": "540528482",
+      "creationTime": 1634830799000,
+      "duration": 0,
+      "filename": "Nitro_Wallpaper_04_3840x2400.jpg",
+      "height": 2400,
+      "id": "44",
+      "mediaType": "photo",
+      "modificationTime": 1635366660000,
+      "uri": "file:///storage/emulated/0/Download/Nitro_Wallpaper_04_3840x2400.jpg",
+      "width": 3840
+    }
+  ],
+  "endCursor": "4",
+  "hasNextPage": false,
+  "totalCount": 4
+}
